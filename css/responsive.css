@@ -3,18 +3,26 @@
 }
 
 @media only screen and (max-width: 1108px) {
-  .wrapper { width: 90%; }
+  .wrapper { 
+    width: 90%; 
+  }
+  
+  #social {
+    position: absolute;
+    width: auto;
+    margin-top: 82px;
+    margin-right: 4px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   body {
     font-size: 85%;
   }
+  
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
 }
 
-#social {
-  position: absolute;
-  width: auto;
-  margin-top: 82px;
-  margin-right: 4px;
-}
