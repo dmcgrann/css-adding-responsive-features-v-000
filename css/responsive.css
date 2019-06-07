@@ -32,8 +32,8 @@
   #social {
     position: absolute;
     width: auto;
-    margin-top: 72px;
-    margin-right: 4px;
+    top: 72px;
+    right: 4px;
   }
   
   col-3 p {
